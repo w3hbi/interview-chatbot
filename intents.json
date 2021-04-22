@@ -1,0 +1,45 @@
+{
+  "intents":
+  [
+    {
+      "tag": "no-answer",
+      "patterns": [],
+      "responses": ["Sorry I don't understand, Can your give me more information?"],
+      "context": [""]
+    },
+
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "Hey","Good Morning", "Hello", "Good day"],
+      "responses": ["Ok,so what's your name ? "],
+      "context": [""]
+    },
+
+    {
+      "tag": "ask-name",
+      "patterns": ["My name is", "I'm", "I am","They call me"],
+      "responses": ["Good Let's Move on, How old are you?", "What about your age?", "How old are you ?"],
+      "context": [""]
+    },
+
+    {
+      "tag": "ask-age",
+      "patterns": ["years old"],
+      "responses": ["Tell me more about your skills"],
+      "context": [""]
+    },
+    {
+      "tag": "ask_skills",
+      "patterns": ["my skills are", "Php", "Java", "Python", "C", "C++", "Kotlin"],
+      "responses": ["Ok That's all Thank You !"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Thanks", "Thank you", "Goodbye", "Have a good day"],
+      "responses": ["Goodbye", "Have a nice day"],
+      "context": [""]
+    }
+
+  ]
+}
