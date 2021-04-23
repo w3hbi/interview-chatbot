@@ -1,3 +1,3 @@
 # interview-chatbot
 
-![Screenshot](screen.png)
+    ![Screenshot](screen.png)
